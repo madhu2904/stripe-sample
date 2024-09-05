@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A sample Stripe implementation",
   "main": "index.js",
+  "engines":{"node":"18.x"},
   "scripts": {
     "start": "node server.js"
   },
