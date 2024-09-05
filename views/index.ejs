@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museum Ticket Booking</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: whitesmoke;
+        }
+        h3 {
+            color: #555;
+        }
+        .ticket-info {
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 20px;
+        }
+        .ticket-info p {
+            margin: 5px 0;
+        }
+        .btn-primary {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            text-align: center;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            margin-top: 20px;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Museum Ticket Booking</h1>
+    </header>
+    <div class="container">
+        <div class="ticket-info">
+            <h3>Tickets for Egmore Museum</h3>
+            <p><strong>Price:</strong> 20.00 Rupees</p>
+            <p><strong>Quantity:</strong> 10</p>
+        </div>
+        <form action="/checkout" method="post">
+            <button type="submit" class="btn-primary">Proceed to Payment</button>
+        </form>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2024 Museum Booking. All rights reserved.</p>
+    </footer>
+</body>
+</html>
